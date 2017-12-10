@@ -1,0 +1,27 @@
+{
+  "name": "lovelyboutique",
+  "version": "1.0.0",
+  "description": "Webstore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visrowe/LovelyBoutique.git"
+  },
+  "keywords": [
+    "webstore"
+  ],
+  "author": "BasicPanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visrowe/LovelyBoutique/issues"
+  },
+  "homepage": "https://github.com/visrowe/LovelyBoutique#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  }
+}
