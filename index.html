@@ -1,89 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Hello, world!</title>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-				<!-- Bootstrap CSS -->
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-				</head>
-				<body>
-					<h1>Hello, world!</h1>
+<div class="container">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p> 
+</div>
 
-
-					<main class="bs-docs-masthead" id="content" tabindex="-1">
-						<div class="container">
-							<span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">B</span>
-							<p class="lead">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</p>
-							<p class="lead">
-								<a href="getting-started#download" class="btn btn-outline-inverse btn-lg" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">Download Bootstrap</a>
-							</p>
-							<p class="version">Currently v{{ site.current_version }}</p>
-    {% include ads.html %}
-						</div>
-					</main>
-
-					<div class="bs-docs-featurette">
-						<div class="container">
-							<h2 class="bs-docs-featurette-title">Designed for everyone, everywhere.</h2>
-							<p class="lead">Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
-
-							<hr class="half-rule">
-
-								<div class="row">
-									<div class="col-sm-4">
-										<img src="assets/img/sass-less.png" alt="Sass and Less support" class="img-responsive">
-											<h3>Preprocessors</h3>
-											<p>Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, <a href="../css/#less">Less</a> and <a href="../css/#sass">Sass</a>. Quickly get started with precompiled CSS or build on the source.</p>
-										</div>
-										<div class="col-sm-4">
-											<img src="assets/img/devices.png" alt="Responsive across devices" class="img-responsive">
-												<h3>One framework, every device.</h3>
-												<p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
-											</div>
-											<div class="col-sm-4">
-												<img src="assets/img/components.png" alt="Components" class="img-responsive">
-													<h3>Full of features</h3>
-													<p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
-												</div>
-											</div>
-
-											<hr class="half-rule">
-
-												<p class="lead">Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
-												<a href="{{ site.repo }}" class="btn btn-outline btn-lg">View the GitHub project</a>
-											</div>
-										</div>
-
-										<div class="bs-docs-featurette">
-											<div class="container">
-												<h2 class="bs-docs-featurette-title">Built with Bootstrap.</h2>
-												<p class="lead">Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing <a href="../getting-started/#examples">collection of examples</a> or by exploring some of our favorites.</p>
-
-												<hr class="half-rule">
-
-													<div class="row bs-docs-featured-sites">
-    {% for showcase in site.data.showcase %}
-														<div class="col-xs-6 col-sm-3">
-															<a href="{{ showcase.expo_url }}" target="_blank" title="{{ showcase.name }}">
-																<img src="{{ site.baseurl }}/assets/img/expo-{{ showcase.img }}.jpg" alt="{{ showcase.name }}" class="img-responsive">
-																</a>
-															</div>
-    {% endfor %}
-														</div>
-
-														<hr class="half-rule">
-
-															<p class="lead">We showcase dozens of inspiring projects built with Bootstrap on the Bootstrap Expo.</p>
-															<a href="{{ site.expo }}" class="btn btn-outline btn-lg">Explore the Expo</a>
-														</div>
-													</div>
-													<!-- Optional JavaScript -->
-													<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-													<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"/>
-													<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"/>
-													<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"/>
-												</body>
-											</html>
+</body>
+</html>
